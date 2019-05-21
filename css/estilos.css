@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Flamenco|Mallanna|Yatra+One');
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #1FD4C4;
+
+}
+#principal{
+	width: 100%;
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	background: rgba(0,0,0,.3);
+	padding: 20px;
+}
+#title{
+
+	font-family: 'Yatra One', cursive;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+#sub-title{
+	font-family: 'Flamenco', cursive;
+	font-size: 15px;
+	text-align: center;
+	line-height: 15px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+#input{
+	background: rgba(51,109,104,.3);
+	width: 80%;
+	font-family: 'Mallanna', sans-serif;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: #fff;
+	margin-left: 12px;
+	padding: 5px;	
+}
+#btn{
+	width: 15%;
+	font-family: 'Mallanna', sans-serif;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #336D68;
+	margin-left: 8px;
+	padding: 5px;
+
+}
+.tasks{
+	width: 100%;
+	padding: 15px 5px;
+	box-sizing: border-box;
+	border: 0.5 solid gray;
+	background: rgba(51,109,104,.2)
+}
+#items{
+	list-style: none;
+	margin-left: 20px;
+	font-family: 'Mallanna', sans-serif;
+	color: #fff;
+	padding: 15px;
+}
+#items li{
+	border-bottom: 1px solid #08A395;
+}
+
+#itens li a{
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+
+}
+#itens li a:hover{
+	text-decoration: line-through;
+}
